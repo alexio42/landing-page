@@ -119,6 +119,11 @@ h2 {
   color: #1F2937;
 }
 
-/* .images {
-  width: 158px;
-} */
+.quote {
+  background-color: #E5E7EB;
+}
+
+blockquote {
+  width: 300px;
+  text-align: center;
+}
