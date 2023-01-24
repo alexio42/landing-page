@@ -120,10 +120,31 @@ h2 {
 }
 
 .quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #E5E7EB;
+  padding: 75px 0;
+
 }
 
 blockquote {
-  width: 300px;
-  text-align: center;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  font-weight: 200;
+  margin-bottom: 0;
+}
+
+figcaption {
+  text-align: right;
+  margin-right: 100px;
+  margin-top: 0;
+  font-size: 24px;
+  font-weight:700;
+  color: #1F2937;
+}
+
+figure {
+  width: 70%; 
 }
